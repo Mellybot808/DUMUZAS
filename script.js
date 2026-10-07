@@ -22,5 +22,5 @@ document.querySelector("#estimate-form").addEventListener("submit", (event) => {
   const name = String(form.get("name")).trim();
   const project = String(form.get("project"));
   const message = `Hello, my name is ${name}. I'm planning a ${project.toLowerCase()} and would like to know more about Dumuzas roofing.`;
-  window.open(`https://wa.me/25410037029?text=${encodeURIComponent(message)}`, "_blank", "noopener,noreferrer");
+  window.open(`https://wa.me/254100370292?text=${encodeURIComponent(message)}`, "_blank", "noopener,noreferrer");
 });
